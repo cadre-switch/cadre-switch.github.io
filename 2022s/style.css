@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Darker Grotesque, sans-serif;
+}
+
+/*Nav Bar*/
+.topbar {
+  background-color: #F8E81A;
+  position: relative;
+  display: flex;
+}
+
+.topnav {
+  background-color: #F8E81A;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  text-align: center;
+  padding: 14px 16px;
+  border: 1px solid pink;
+}
+
+.topnav a {
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.topnav .active {
+  font-weight: bold;
+}
+
+/*Hero Content*/
+
+.hero {
+  position: relative;
+  padding: 0;
+  width: 100%;
+}
+
+.hero-overlay {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 90%;
+  text-align: left;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  font-size: 48px;
+  padding: 0px;
+  line-height: .5;
+}
+
+.hero img {
+  height: auto;
+  opacity: .65;
+}
+
+.hero p {
+  margin-left: 20px;
+  margin-top: 0px;
+  color: DimGrey;
+}
+
+.hero a {
+  color: black;
+}
+
+/*Main Content*/
+.content {
+  position: relative;
+  background-color: #FFFFFF;
+  padding: 50px;
+  padding-bottom: 10px;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.content a {
+  color: #000000;
+}
+
+.preview {
+  border: 1px solid black;
+}
+
+.content button {
+  background-color: #F8E81A;
+  color: black;
+  font-size: large;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.row1 {
+  background-color: white;
+  padding: 10px;
+  flex: 50%;
+}
+
+.row2 {
+  background-color: white;
+  padding: 10px;
+  flex: 50%;
+}
+
+.row3 {
+  padding: 0px;
+  flex: 25%;
+}
+
+.row4 {
+  padding: 7.5px;
+  flex: 75%;
+}
+
+/*Footer*/
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #F8E81A;
+  text-align: right;
+  padding: 10px;
+}
+
+.footer a {
+  color: #000000;
+}
+
+/*PDF Viewer*/
+iframe {
+  width: 100%;
+  height: 800px;
+}
+object {
+  width: 100%;
+  height: 800px;
+}
+
+#pdf {
+  display: block;
+  width: 100%;
+  background-color: grey;
+}
+
+.pdf-content {
+  background-color: #FFFFFF;
+  padding: 50px;
+  width: 100%;
+}
+
+.pdf-content a {
+  color: #000000;
+}
+
+.logo-image img{
+  height: 40px;
+  overflow: hidden;
+  float: left;
+  padding: 5px;
+}
+
+
+/*Responsive*/
+
+@media (max-width: 700px) {
+  .topnav {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .topnav a{
+    margin: auto;
+    width: 100%;
+  }
+
+  .footer {
+    margin: auto;
+    text-align: center;
+  }
+
+  .logo-image img{
+    float: none;
+    margin: auto;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .row1, .row2, .row3, .row4 {
+    flex: 100%;
+  }
+
+  .hero-overlay {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    width: auto;
+  }
+}
