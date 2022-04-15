@@ -20,6 +20,6 @@ If you don't have edit access to repo:
 
 Double check that you provided your info in the Github Repo Signup Canvas assignment.
 
-Double check that you accepted the collaboration invitation from sjsu-dma-bfa (search for an email subject: invited you to sjsu-dma-bfa/sjsu-dma-bfa.github.io)
+Double check that you accepted the collaboration invitation from cadre-switch (search for an email subject: invited you to cadre-switch/cadre-switch.github.io)
 
 Check your spam folder of the email account you provided that is associated with your gituhub repo
