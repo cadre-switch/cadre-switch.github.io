@@ -2,7 +2,7 @@ This will become the staging site for the Switch Journal Reboot
 
 Once you have been added to the class github as a contributor:
 
-Create a folder in this directory
+Create a folder in your semester's directory
 
 Name it: your first initial your lastname
 
