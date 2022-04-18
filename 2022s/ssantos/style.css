@@ -6,7 +6,29 @@
 
 body {
   margin: 0;
-  font-family: Saria, sans-serif;
+  font-family: Saria Condensed, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Scroll Bar*/
+::-webkit-scrollbar
+{
+  width: 14px;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: linear-gradient(transparent, #009cad);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+  background: linear-gradient(transparent,#016773);
 }
 
 /*Nav Bar*/
@@ -78,7 +100,7 @@ body {
 }
 
 .hero a {
-  color: black;
+  color: #132743;
 }
 
 /*Main Content*/
