@@ -7,6 +7,7 @@
 body {
   margin: 0;
   font-family: Saria Condensed, sans-serif;
+  background: #ffcbcb;
 }
 
 * {
@@ -33,7 +34,7 @@ body {
 
 ::-webkit-scrollbar-track
 {
-  background: linear-gradient(#ffb5b5);
+  background: #bf8e8e;
 }
 
 
@@ -65,8 +66,9 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #FFFFFF;
-  color: black;
+  background-color: #004c54;
+  color: white;
+  border-radius:10px;
 }
 
 .topnav .active {
@@ -118,7 +120,7 @@ body {
   width: 80%;
   max-width: 1000px;
   margin: auto;
-  line-height:1.5;
+  line-height:1.8;
 }
 
 .content a {
