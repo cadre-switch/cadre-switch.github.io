@@ -17,7 +17,7 @@ body {
 }
 
 .topnav {
-  background-color: #F8E81A;
+  background-color: #009cad;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -84,7 +84,7 @@ body {
 /*Main Content*/
 .content {
   position: relative;
-  background-color: #FFFFFF;
+  background-color:  #ffcbcb;
   padding: 50px;
   padding-bottom: 10px;
   width: 80%;
