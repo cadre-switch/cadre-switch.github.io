@@ -93,7 +93,7 @@ body {
 }
 
 .content a {
-  color: #000000;
+  color: #132743;
 }
 
 .preview {
@@ -119,13 +119,13 @@ body {
 }
 
 .row1 {
-  background-color: white;
+  background-color: #ffcbcb;
   padding: 10px;
   flex: 50%;
 }
 
 .row2 {
-  background-color: white;
+  background-color: #ffcbcb;
   padding: 10px;
   flex: 50%;
 }
@@ -144,7 +144,7 @@ body {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  background-color: #ffcbcb;
+  background-color: #009cad;
   text-align: right;
   padding: 10px;
 }
