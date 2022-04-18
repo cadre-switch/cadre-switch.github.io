@@ -17,13 +17,13 @@ body {
 /*Scroll Bar*/
 ::-webkit-scrollbar
 {
-  width: 2vw;
+  width: 1vw;
 }
 
 ::-webkit-scrollbar-thumb
 {
   background: linear-gradient(transparent, #009cad);
-  border-radius: 1vw;
+  border-radius: 0.1vw;
 }
 
 ::-webkit-scrollbar-thumb:hover
