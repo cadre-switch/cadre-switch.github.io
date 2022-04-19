@@ -11,6 +11,29 @@ body {
   background:#113f67; 
 }
 
+/*Scroll Bar*/
+::-webkit-scrollbar
+{
+  width: 1vw;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: linear-gradient(#e7eaf6, #a2a8d3);
+  border-radius: 0.5vw;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+  background: linear-gradient(#38598b,#38598b);
+}
+
+::-webkit-scrollbar-track
+{
+  background: #0b2c47;
+}
+
+
 /*Nav Bar*/
 .topbar {
   background-color: #a2a8d3;
