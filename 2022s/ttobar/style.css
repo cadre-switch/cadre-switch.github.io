@@ -170,7 +170,7 @@ body {
 
 /*Footer*/
 .footer {
-  display: block;
+  display: wrap;
   flex-wrap: wrap;
   background-color: #a2a8d3;
   text-align: right;
