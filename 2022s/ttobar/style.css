@@ -1,5 +1,5 @@
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 </style>
 * {
   box-sizing: border-box;
@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  font-family: 'Gloria Hallelujah', cursive;
+ font-family: 'Press Start 2P', cursive;
   background:#113f67; 
 }
 
