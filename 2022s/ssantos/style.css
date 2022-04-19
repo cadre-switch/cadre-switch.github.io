@@ -121,10 +121,15 @@ body {
   max-width: 1000px;
   margin: auto;
   line-height:1.8;
+  color: #132743;
 }
 
 .content a {
-  color: #132743;
+  color: #ff000;
+}
+
+.content a:hover {
+  color: white;
 }
 
 .preview {
@@ -207,7 +212,7 @@ object {
 }
 
 .pdf-content a {
-  color: #000000;
+  color: #132743;
 }
 
 .logo-image img{
