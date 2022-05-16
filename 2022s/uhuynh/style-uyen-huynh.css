@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,8 +6,8 @@
 
 body {
   margin: 0;
-  font-family: Special Elite, sans-serif;
-  background: #ffcbcb;
+  font-family: Catamaran, sans-serif;
+  background: #b8d3ff;
 }
 
 * {
@@ -23,30 +23,30 @@ body {
 
 ::-webkit-scrollbar-thumb
 {
-  background: linear-gradient(#009cad, #009cad);
+  background: linear-gradient(#ffb5c8, #ffb5c8);
   border-radius: 0.1vw;
 }
 
 ::-webkit-scrollbar-thumb:hover
 {
-  background: linear-gradient(#016773,#016773);
+  background: linear-gradient(#400c18,#400c18);
 }
 
 ::-webkit-scrollbar-track
 {
-  background: #bf8e8e;
+  background: #9dc1fa;
 }
 
 
 /*Nav Bar*/
 .topbar {
-  background-color: #009cad;
+  background-color: #ffb5c8;
   position: relative;
   display: flex;
 }
 
 .topnav {
-  background-color: #009cad;
+  background-color: #ffb5c8;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -66,7 +66,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #004c54;
+  background-color: #f590aa;
   color: white;
   border-radius:10px;
 }
