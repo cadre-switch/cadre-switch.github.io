@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 * {
@@ -38,7 +37,7 @@ body {
 /*Scroll Bar*/
 ::-webkit-scrollbar
 {
-  width: 0.5vw;
+  width: 0.7vw;
 }
 
 ::-webkit-scrollbar-thumb
@@ -114,7 +113,7 @@ body {
   font-size: 48px;
   padding: 0px;
   line-height: .5;
-  color: #e7eaf6;
+  color: #d9f2ff;
 }
 
 .hero img {
@@ -125,7 +124,7 @@ body {
 .hero p {
   margin-left: 20px;
   margin-top: 0px;
-  color: white;
+  color: #d9f2ff;
 }
 
 .hero a {
@@ -141,7 +140,8 @@ body {
   width: 80%;
   max-width: 1000px;
   margin: auto;
-  color:#e7eaf6;
+  color:#d9f2ff;
+  font-size:20px;
 }
 
 .content a {
