@@ -49,12 +49,12 @@ body {
 
 ::-webkit-scrollbar-thumb:hover
 {
-  background: linear-gradient(#77529e,#77529e);
+  background: linear-gradient(#d9f2ff,#a5bdfd);
 }
 
 ::-webkit-scrollbar-track
 {
-  background: #0b2c47;
+  background: #77529;
 }
 
 
