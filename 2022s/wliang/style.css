@@ -24,6 +24,31 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:hover
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+ font-family: 'VT323', monospace;
+  background:#77529e; 
+}
+
+/*Scroll Bar*/
+::-webkit-scrollbar
+{
+  width: 0.5vw;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: linear-gradient(#e7eaf6, #a2a8d3);
+  border-radius: 0.5vw;
+}
+
+::-webkit-scrollbar-thumb:hover
 {
   background: linear-gradient(#38598b,#38598b);
 }
@@ -36,13 +61,13 @@ body {
 
 /*Nav Bar*/
 .topbar {
-  background-color: #a2a8d3;
+  background-color: #d9f2ff;
   position: relative;
   display: flex;
 }
 
 .topnav {
-  background-color: #a2a8d3;
+  background-color: #d9f2ff;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -55,7 +80,7 @@ body {
 }
 
 .topnav a {
-  color: #e7eaf6;
+  color: #77529e;;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -111,7 +136,7 @@ body {
 /*Main Content*/
 .content {
   position: relative;
-  background-color: #113f67;
+  background-color: #77529e;
   padding: 50px;
   padding-bottom: 10px;
   width: 80%;
