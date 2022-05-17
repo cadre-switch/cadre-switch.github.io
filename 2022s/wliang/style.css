@@ -14,7 +14,7 @@ body {
 /*Scroll Bar*/
 ::-webkit-scrollbar
 {
-  width: 0.5vw;
+  width: 1vw;
 }
 
 ::-webkit-scrollbar-thumb
@@ -25,7 +25,6 @@ body {
 
 ::-webkit-scrollbar-thumb:hover
 
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 * {
   box-sizing: border-box;
 }
