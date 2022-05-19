@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,18 +6,66 @@
 
 body {
   margin: 0;
-  font-family: OdibeeSans-Regular, sans-serif;
+font-family: 'VT323', monospace;
+  background:#113f67; 
 }
+
+/*Scroll Bar*/
+::-webkit-scrollbar
+{
+  width: 1vw;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: linear-gradient(#e7eaf6, #a2a8d3);
+  border-radius: 0.5vw;
+}
+
+::-webkit-scrollbar-thumb:hover
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+ font-family: 'VT323', monospace;
+  background:#77529e; 
+}
+
+/*Scroll Bar*/
+::-webkit-scrollbar
+{
+  width: 0.7vw;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: linear-gradient(#d9f2ff, #a5bdfd);
+  border-radius: 0.5vw;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+  background: linear-gradient(#d9f2ff,#a5bdfd);
+}
+
+::-webkit-scrollbar-track
+{
+  background: #77529;
+}
+
 
 /*Nav Bar*/
 .topbar {
-  background-color: #edd5d5;
+  background-color: #d9f2ff;
   position: relative;
   display: flex;
 }
 
 .topnav {
-  background-color: #edd5d5;
+  background-color: #d9f2ff;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -26,19 +74,20 @@ body {
 .nav-item {
   text-align: center;
   padding: 14px 16px;
-  border: 1px solid pink;
+  border: 1px solid white;
 }
 
 .topnav a {
-  color: #6e6c74;
+  color: #77529e;;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .topnav a:hover {
-  background-color: #FFFFFF;
-  color: black;
+  background-color: #113f67;
+  color: #e7eaf6;
+  border-radius: 0.5vw;
 }
 
 .topnav .active {
@@ -64,6 +113,7 @@ body {
   font-size: 48px;
   padding: 0px;
   line-height: .5;
+  color: #d9f2ff;
 }
 
 .hero img {
@@ -74,35 +124,37 @@ body {
 .hero p {
   margin-left: 20px;
   margin-top: 0px;
-  color: DimGrey;
+  color: #d9f2ff;
 }
 
 .hero a {
-  color: black;
+  color: #a2a8d3;
 }
 
 /*Main Content*/
 .content {
   position: relative;
-  background-color: #edd5d5;
+  background-color: #77529e;
   padding: 50px;
   padding-bottom: 10px;
   width: 80%;
   max-width: 1000px;
   margin: auto;
+  color:#d9f2ff;
+  font-size:20px;
 }
 
 .content a {
-  color: #000000;
+  color: #a2a8d3;
 }
 
 .preview {
-  border: 1px solid black;
+  border: 1px solid #113f67;
 }
 
 .content button {
   background-color: #F8E81A;
-  color: black;
+  color: #113f67;
   font-size: large;
   padding: 20px;
   border-radius: 10px;
@@ -142,15 +194,15 @@ body {
 
 /*Footer*/
 .footer {
-  display: flex;
+  display: wrap;
   flex-wrap: wrap;
-  background-color: #F8E81A;
+  background-color: #a2a8d3;
   text-align: right;
   padding: 10px;
 }
 
 .footer a {
-  color: #000000;
+  color: white;
 }
 
 /*PDF Viewer*/
@@ -176,7 +228,7 @@ object {
 }
 
 .pdf-content a {
-  color: #000000;
+  color: #113f67;
 }
 
 .logo-image img{
