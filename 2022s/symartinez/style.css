@@ -11,13 +11,13 @@ body {
 
 /*Nav Bar*/
 .topbar {
-  background-color: #F8E81A;
+  background-color: #edd5d5;
   position: relative;
   display: flex;
 }
 
 .topnav {
-  background-color: #F8E81A;
+  background-color: #edd5d5;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -30,7 +30,7 @@ body {
 }
 
 .topnav a {
-  color: #000000;
+  color: #6e6c74;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
