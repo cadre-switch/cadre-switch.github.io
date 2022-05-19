@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
 
 * {
   box-sizing: border-box;
@@ -6,18 +6,47 @@
 
 body {
   margin: 0;
-  font-family: OdibeeSans-Regular, sans-serif;
+  font-family: Catamaran, sans-serif;
+  background: #b8d3ff;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Scroll Bar*/
+::-webkit-scrollbar
+{
+  width: 1vw;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: linear-gradient(#ffb5c8, #ffb5c8);
+  border-radius: 0.1vw;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+  background: linear-gradient(#400c18,#400c18);
+}
+
+::-webkit-scrollbar-track
+{
+  background: #9dc1fa;
+}
+
 
 /*Nav Bar*/
 .topbar {
-  background-color: #edd5d5;
+  background-color: #ffb5c8;
   position: relative;
   display: flex;
 }
 
 .topnav {
-  background-color: #edd5d5;
+  background-color: #ffb5c8;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -30,15 +59,16 @@ body {
 }
 
 .topnav a {
-  color: #6e6c74;
+  color: #132743;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .topnav a:hover {
-  background-color: #FFFFFF;
-  color: black;
+  background-color: #f590aa;
+  color: white;
+  border-radius:10px;
 }
 
 .topnav .active {
@@ -60,7 +90,7 @@ body {
   width: 90%;
   text-align: left;
   margin-left: 50px;
-  margin-bottom: 25px;
+  margin-bottom: 55px;
   font-size: 48px;
   padding: 0px;
   line-height: .5;
@@ -68,7 +98,7 @@ body {
 
 .hero img {
   height: auto;
-  opacity: .65;
+  opacity: .45;
 }
 
 .hero p {
@@ -78,22 +108,28 @@ body {
 }
 
 .hero a {
-  color: black;
+  color: #132743;
 }
 
 /*Main Content*/
 .content {
   position: relative;
-  background-color: #edd5d5;
+  background-color:  #b8d3ff;
   padding: 50px;
   padding-bottom: 10px;
   width: 80%;
   max-width: 1000px;
   margin: auto;
+  line-height:1.8;
+  color: #132743;
 }
 
 .content a {
-  color: #000000;
+  color: #ff0000;
+}
+
+.content a:hover {
+  color: white;
 }
 
 .preview {
@@ -101,8 +137,8 @@ body {
 }
 
 .content button {
-  background-color: #F8E81A;
-  color: black;
+  background-color: #009cad;
+  color: #132743;
   font-size: large;
   padding: 20px;
   border-radius: 10px;
@@ -119,13 +155,13 @@ body {
 }
 
 .row1 {
-  background-color: white;
+  background-color: #b8d3ff;
   padding: 10px;
   flex: 50%;
 }
 
 .row2 {
-  background-color: white;
+  background-color: #b8d3ff;
   padding: 10px;
   flex: 50%;
 }
@@ -144,13 +180,13 @@ body {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  background-color: #F8E81A;
+  background-color: #009cad;
   text-align: right;
   padding: 10px;
 }
 
 .footer a {
-  color: #000000;
+  color: #132743;
 }
 
 /*PDF Viewer*/
@@ -176,7 +212,7 @@ object {
 }
 
 .pdf-content a {
-  color: #000000;
+  color: #132743;
 }
 
 .logo-image img{
