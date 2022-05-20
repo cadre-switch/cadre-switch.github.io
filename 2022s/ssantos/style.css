@@ -126,6 +126,7 @@ body {
 
 li {
   font-family: Helvetica;
+  text-indent: 50px;
 }
 
 h5 {
@@ -143,6 +144,7 @@ h2 {
 
 p {
   font-family: Helvetica;
+  text-indent: 50px;
 }
 
 .content a {
