@@ -124,6 +124,18 @@ body {
   color: #132743;
 }
 
+li {
+  font-family: Helvetica;
+}
+
+h5 {
+  font-size:24px;
+}
+
+h4 {
+  font-family: Courier New;
+}
+
 h2 {
   padding-top:1vw;
 }
@@ -191,8 +203,6 @@ p {
   background-color: #009cad;
   text-align: right;
   padding-top: 10px;
-  margin-right: -27vw;
-  margin-left: -27vw;
 }
 
 .footer a {
