@@ -199,7 +199,7 @@ p {
 
 /*Footer*/
 .footer {
-  display: inlin;
+  display: flex;
   flex-wrap: wrap;
   background-color: #009cad;
   text-align: right;
