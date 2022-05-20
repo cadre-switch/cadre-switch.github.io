@@ -126,7 +126,7 @@ body {
 
 li {
   font-family: Helvetica;
-  text-indent: 50px;
+  padding-left: 1vw;
 }
 
 h5 {
