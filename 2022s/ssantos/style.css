@@ -131,6 +131,7 @@ h2 {
 p {
   font-family: Helvetica;
 }
+
 .content a {
   color: blue;
 }
@@ -190,8 +191,8 @@ p {
   background-color: #009cad;
   text-align: right;
   padding-top: 10px;
-  margin-right: -25vw;
-  margin-left: -25vw;
+  margin-right: -27vw;
+  margin-left: -27vw;
 }
 
 .footer a {
