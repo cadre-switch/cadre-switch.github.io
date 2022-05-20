@@ -124,6 +124,10 @@ body {
   color: #132743;
 }
 
+h2 {
+  padding-top:1vw;
+}
+
 p {
   font-family: Helvetica;
 }
