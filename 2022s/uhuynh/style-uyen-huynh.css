@@ -7,7 +7,7 @@
 body {
   margin: 0;
   font-family: Catamaran, sans-serif;
-  background: #b8d3ff;
+  background: #d7e2f1;
 }
 
 * {
@@ -23,7 +23,7 @@ body {
 
 ::-webkit-scrollbar-thumb
 {
-  background: linear-gradient(#ffb5c8, #ffb5c8);
+  background: linear-gradient(#ecccd4, #ecccd4);
   border-radius: 0.1vw;
 }
 
@@ -34,19 +34,19 @@ body {
 
 ::-webkit-scrollbar-track
 {
-  background: #9dc1fa;
+  background: #d7e2f1;
 }
 
 
 /*Nav Bar*/
 .topbar {
-  background-color: #ffb5c8;
+  background-color: #ecccd4;
   position: relative;
   display: flex;
 }
 
 .topnav {
-  background-color: #ffb5c8;
+  background-color: #ecccd4;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -87,18 +87,18 @@ body {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  width: 90%;
+  width: 80%;
   text-align: left;
   margin-left: 50px;
   margin-bottom: 55px;
-  font-size: 48px;
+  font-size: 35px;
   padding: 0px;
   line-height: .5;
 }
 
 .hero img {
   height: auto;
-  opacity: .45;
+  opacity: .25;
 }
 
 .hero p {
@@ -114,7 +114,7 @@ body {
 /*Main Content*/
 .content {
   position: relative;
-  background-color:  #b8d3ff;
+  background-color:  #dee9fc;
   padding: 50px;
   padding-bottom: 10px;
   width: 80%;
@@ -137,7 +137,7 @@ body {
 }
 
 .content button {
-  background-color: #009cad;
+  background-color: #ecccd4;
   color: #132743;
   font-size: large;
   padding: 20px;
@@ -155,13 +155,13 @@ body {
 }
 
 .row1 {
-  background-color: #b8d3ff;
+  background-color: #d7e2f1;
   padding: 10px;
   flex: 50%;
 }
 
 .row2 {
-  background-color: #b8d3ff;
+  background-color: #d7e2f1;
   padding: 10px;
   flex: 50%;
 }
@@ -180,7 +180,7 @@ body {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  background-color: #009cad;
+  background-color: #ecccd4;
   text-align: right;
   padding: 10px;
 }
@@ -259,5 +259,9 @@ object {
     margin-left: 25px;
     margin-bottom: 50px;
     width: auto;
+  }
+
+  h1{
+    color:#ff0000;
   }
 }
