@@ -87,7 +87,6 @@ body {
 .topnav a:hover {
   background-color: #113f67;
   color: #e7eaf6;
-  border-radius: 0.5vw;
 }
 
 .topnav .active {
