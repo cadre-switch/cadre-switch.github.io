@@ -87,18 +87,18 @@ body {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  width: 90%;
+  width: 80%;
   text-align: left;
   margin-left: 50px;
   margin-bottom: 55px;
-  font-size: 48px;
+  font-size: 40px;
   padding: 0px;
   line-height: .5;
 }
 
 .hero img {
   height: auto;
-  opacity: .45;
+  opacity: .25;
 }
 
 .hero p {
