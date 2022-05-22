@@ -286,7 +286,7 @@ object {
 
 .panel {
   padding: 0 18px;
-  background-color: transparent;
+  background-color: #e5e6e7ff;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
