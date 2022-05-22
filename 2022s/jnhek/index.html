@@ -46,7 +46,7 @@
         Reviewed by: Julee Nhek
       </h2>
       
-      <p>
+<!--       <p>
         <a href="https://julesaur.github.io/">julesaur.github.io</a>
       </p>
       
@@ -59,7 +59,6 @@
 Post-Internet engages the viewers participating and willing to become part of the art without being directly interesting in their work. Sure images and descriptions would suffice, but I want to dig deeper into the meaning. 
 
         
-<!--        <a href="https://rhondaholberton.com">consectetur adipiscing elit</a> -->
       </p>
 
       
@@ -70,20 +69,51 @@ Post-Internet engages the viewers participating and willing to become part of th
       <ul>
          <li>Internet</li>
    <li>Art</li>
-   <li>Viwer Interaction</li>
+   <li>Viewer Interaction</li>
+   <li>21st Art Movement</li>
+   <li>New Aesthetic </li>
+   <li>Contradictory Modernism Art</li>
+   <li>Art after the Internet</li>
+      </ul> -->
+      
+      <button class="accordion">Website</button>
+<div class="panel">
+  <p><a href="https://julesaur.github.io/">julesaur.github.io</a></p>
+</div>
+
+<button class="accordion">Abstract</button>
+<div class="panel">
+<p>
+        Identifying art is one way to interpret its meaning and intentions, but what happens if Post-Internet art becomes too complex to understand when your viewer is somehow connected to an artist’s work. Is it possible to lose your artist’s touch or an accidental collaboration waiting to reform against traditional art?
+Post-Internet engages the viewers participating and willing to become part of the art without being directly interesting in their work. Sure images and descriptions would suffice, but I want to dig deeper into the meaning. 
+
+       
+      </p>
+</div>
+
+<button class="accordion">Keywords</button>
+<div class="panel">
+<ul>
+         <li>Internet</li>
+   <li>Art</li>
+   <li>Viewer Interaction</li>
    <li>21st Art Movement</li>
    <li>New Aesthetic </li>
    <li>Contradictory Modernism Art</li>
    <li>Art after the Internet</li>
       </ul>
+</div>
+      
+      
+      
+      
       
       
       <h2>
         Article Body
       </h2>
   
-      
-<!--       Example Paragraph with Hyperlink -->
+
       <p>
         
         I. Introduction
@@ -259,6 +289,23 @@ In conclusion, Post-Internet art is the rebel of internet art because it opposes
       </p>
       
     </div>
+    
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 
 <!--   DO NOT EDIT FOOTER -->
     <footer class="footer">
