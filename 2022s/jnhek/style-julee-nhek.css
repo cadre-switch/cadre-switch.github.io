@@ -86,7 +86,7 @@ body {
   color: black;
 }
 
-a.highlight:hover, a.highlight:active {color: rgba(237,149,204, 9); font-family: 'Rubik Glitch', cursive;}
+a.highlight:hover, a.highlight:active {color: rgb(126,247,246, 5); font-family: 'Rubik Glitch', cursive;}
 
 /*Main Content*/
 .content {
