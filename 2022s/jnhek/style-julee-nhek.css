@@ -1,6 +1,7 @@
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/mechanics/mec-4/mec380.cur), auto !important;} /* End https://www.cursors-4u.com */
 
 @import url('https://fonts.googleapis.com/css2?family=Jura&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
 
 * {
   box-sizing: border-box;
@@ -84,6 +85,8 @@ body {
 .hero a {
   color: black;
 }
+
+a.highlight:hover, a.highlight:active {color: rgba(237,149,204, 9); font-family: 'Rubik Glitch', cursive;}
 
 /*Main Content*/
 .content {
