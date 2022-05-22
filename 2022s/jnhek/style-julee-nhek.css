@@ -293,7 +293,28 @@ object {
   transition: max-height 0.2s ease-out;
 }
 
+/* go up */
 
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #5129de;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: white;
+  color: #5129de;
+}
 
 
 
