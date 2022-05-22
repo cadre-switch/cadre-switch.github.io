@@ -19,13 +19,13 @@ body {
 
 ::-webkit-scrollbar-thumb
 {
-  background: linear-gradient(#e7eaf6, #a2a8d3);
+  background: linear-gradient(#fc9dc9, #ff91c4);
   border-radius: 0.5vw;
 }
 
 ::-webkit-scrollbar-thumb:hover
 {
-  background: linear-gradient(#38598b,#38598b);
+  background: linear-gradient(#ffbfdd,#ffbfdd);
 }
 
 ::-webkit-scrollbar-track
