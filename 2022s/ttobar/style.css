@@ -111,7 +111,7 @@ body {
 /*Main Content*/
 .content {
   position: relative;
-  background-color: #113f67;
+  background-color: #ffffff;
   padding: 50px;
   padding-bottom: 10px;
   width: 80%;
@@ -125,7 +125,7 @@ body {
 }
 
 .preview {
-  border: 1px solid #113f67;
+  border: 1px solid #ffffff;
 }
 
 .content button {
