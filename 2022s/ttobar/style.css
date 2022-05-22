@@ -36,13 +36,13 @@ body {
 
 /*Nav Bar*/
 .topbar {
-  background-color: #a2a8d3;
+  background-color: #fcb6d7;
   position: relative;
   display: flex;
 }
 
 .topnav {
-  background-color: #a2a8d3;
+  background-color: #fcb6d7;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -55,14 +55,14 @@ body {
 }
 
 .topnav a {
-  color: #e7eaf6;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .topnav a:hover {
-  background-color: #113f67;
+  background-color: #f274af;
   color: #e7eaf6;
   border-radius: 0.5vw;
 }
