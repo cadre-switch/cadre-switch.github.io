@@ -103,18 +103,17 @@ body {
 .preview {
   border: 1px solid black;
 }
-/* 
+
 .content button {
-  background-color: #F8E81A;
-  color: black;
+  background-color: #5129de;
+  color: white;
   font-size: large;
   padding: 20px;
-  border-radius: 10px;
   border: none;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-} */
+}
 
 .row {
   display: flex;
