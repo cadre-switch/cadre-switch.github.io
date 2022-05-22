@@ -312,8 +312,9 @@ object {
 }
 
 #myBtn:hover {
-  background-color: #5129de;
-  color: #e5e6e7ff;
+  border: 1px solid #5129de;
+  background-color: #e5e6e7ff;
+  color: #5129de;
 }
 
 
