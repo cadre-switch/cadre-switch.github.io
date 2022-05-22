@@ -267,7 +267,7 @@ object {
 }
 
 .active, .accordion:hover {
-  background-color: #e5e6e7ff; 
+  background-color: white; 
   color: #5129de;
 }
 
