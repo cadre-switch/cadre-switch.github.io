@@ -312,8 +312,8 @@ object {
 }
 
 #myBtn:hover {
-  background-color: white;
-  color: #5129de;
+  background-color: #5129de;
+  color: #e5e6e7ff;
 }
 
 
