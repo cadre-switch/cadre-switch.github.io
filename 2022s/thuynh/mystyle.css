@@ -7,6 +7,7 @@
 body {
   margin: 0;
   font-family: Darker Grotesque, sans-serif;
+  background-color: #ffebd4;
 }
 
 /*Nav Bar*/
@@ -17,7 +18,7 @@ body {
 }
 
 .topnav {
-  background-color: #F8E81A;
+  background-color: #f2af63;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -64,11 +65,12 @@ body {
   font-size: 48px;
   padding: 0px;
   line-height: .5;
+  color: #f2d0aa;
 }
 
 .hero img {
   height: auto;
-  opacity: .65;
+  opacity: .9;
 }
 
 .hero p {
@@ -78,22 +80,31 @@ body {
 }
 
 .hero a {
-  color: black;
+  color: #0c6e24;
 }
 
 /*Main Content*/
 .content {
   position: relative;
-  background-color: #fcf4eb;
+  background-color: #f2d0aa;
   padding: 50px;
   padding-bottom: 10px;
   width: 80%;
   max-width: 1000px;
+  font-size: 20px;
   margin: auto;
 }
 
 .content a {
-  color: #2c9145;
+  color: #0c6e24;
+}
+
+.writter {
+  text-decoration: none; 
+}
+
+.content i{
+  color: #d94e09;
 }
 
 .preview {
@@ -144,7 +155,7 @@ body {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  background-color: #F8E81A;
+  background-color: #f2af63;
   text-align: right;
   padding: 10px;
 }
