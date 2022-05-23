@@ -1,4 +1,11 @@
+<<<<<<< Updated upstream
 /* @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500;600;700&display=swap'); */
+=======
+/* old font - default */
+/* @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500;600;700&display=swap'); */
+
+/* new font */
+>>>>>>> Stashed changes
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;600&display=swap');
 
 * {
@@ -7,7 +14,11 @@
 
 body {
   margin: 0;
+<<<<<<< Updated upstream
   font-family: Darker Grotesque, sans-serif;
+=======
+  font-family: New Courier;
+>>>>>>> Stashed changes
 }
 
 /*Nav Bar*/
