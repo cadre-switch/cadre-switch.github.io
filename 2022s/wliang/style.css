@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Cutive Mono");
 
 * {
   box-sizing: border-box;
@@ -6,56 +6,29 @@
 
 body {
   margin: 0;
-font-family: 'VT323', monospace;
-  background:#113f67; 
+  font-family: "VT323", monospace;
+
+  background-color: #77529e; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to top right, #d9f2ff, #77529e);
 }
 
 /*Scroll Bar*/
-::-webkit-scrollbar
-{
-  width: 1vw;
-}
-
-::-webkit-scrollbar-thumb
-{
-  background: linear-gradient(#e7eaf6, #a2a8d3);
-  border-radius: 0.5vw;
-}
-
-::-webkit-scrollbar-thumb:hover
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
- font-family: 'VT323', monospace;
-  background:#77529e; 
-}
-
-/*Scroll Bar*/
-::-webkit-scrollbar
-{
+::-webkit-scrollbar {
   width: 0.7vw;
 }
 
-::-webkit-scrollbar-thumb
-{
+::-webkit-scrollbar-track {
+  background: #775290;
+}
+
+::-webkit-scrollbar-thumb {
   background: linear-gradient(#d9f2ff, #a5bdfd);
   border-radius: 0.5vw;
 }
 
-::-webkit-scrollbar-thumb:hover
-{
-  background: linear-gradient(#d9f2ff,#a5bdfd);
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#d9f2ff, #a5bdfd);
 }
-
-::-webkit-scrollbar-track
-{
-  background: #77529;
-}
-
 
 /*Nav Bar*/
 .topbar {
@@ -78,20 +51,22 @@ body {
 }
 
 .topnav a {
-  color: #77529e;;
+  color: #77529e;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  border-radius: 0px;
 }
 
 .topnav a:hover {
   background-color: #113f67;
   color: #e7eaf6;
-  border-radius: 0.5vw;
+  border-radius: 0px;
 }
 
 .topnav .active {
   font-weight: bold;
+  border-radius: 0px;
 }
 
 /*Hero Content*/
@@ -112,13 +87,13 @@ body {
   margin-bottom: 25px;
   font-size: 48px;
   padding: 0px;
-  line-height: .5;
+  line-height: 0.5;
   color: #d9f2ff;
 }
 
 .hero img {
   height: auto;
-  opacity: .65;
+  opacity: 0.65;
 }
 
 .hero p {
@@ -137,11 +112,11 @@ body {
   background-color: #77529e;
   padding: 50px;
   padding-bottom: 10px;
-  width: 80%;
+  width: 85%;
   max-width: 1000px;
   margin: auto;
-  color:#d9f2ff;
-  font-size:20px;
+  color: white;
+  font-size: 20px;
 }
 
 .content a {
@@ -153,8 +128,8 @@ body {
 }
 
 .content button {
-  background-color: #F8E81A;
-  color: #113f67;
+  background-color: white;
+  color: #77529e;
   font-size: large;
   padding: 20px;
   border-radius: 10px;
@@ -192,6 +167,36 @@ body {
   flex: 75%;
 }
 
+/*Text Styling*/
+h1 {
+  margin-top: 0.82em;
+}
+
+h2 {
+  margin-top: 0.88em;
+}
+
+h3 {
+  margin-top: 1.05em;
+  padding-top: 30px;
+}
+
+h4 {
+  margin-top: 1.38em;
+}
+
+h5 {
+  margin-top: 1.72em;
+}
+
+h6 {
+  margin-top: 2.38em;
+}
+
+p {
+  line-height: 1.4;
+}
+
 /*Footer*/
 .footer {
   display: wrap;
@@ -222,7 +227,7 @@ object {
 }
 
 .pdf-content {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 50px;
   width: 100%;
 }
@@ -231,13 +236,12 @@ object {
   color: #113f67;
 }
 
-.logo-image img{
+.logo-image img {
   height: 40px;
   overflow: hidden;
   float: left;
   padding: 5px;
 }
-
 
 /*Responsive*/
 
@@ -247,7 +251,7 @@ object {
     flex-wrap: wrap;
   }
 
-  .topnav a{
+  .topnav a {
     margin: auto;
     width: 100%;
   }
@@ -257,7 +261,7 @@ object {
     text-align: center;
   }
 
-  .logo-image img{
+  .logo-image img {
     float: none;
     margin: auto;
   }
@@ -266,7 +270,10 @@ object {
     width: 100%;
   }
 
-  .row1, .row2, .row3, .row4 {
+  .row1,
+  .row2,
+  .row3,
+  .row4 {
     flex: 100%;
   }
 
@@ -276,4 +283,64 @@ object {
     margin-bottom: 50px;
     width: auto;
   }
+}
+
+/*Dropdown Accordion*/
+.accordion {
+  background-color: #5129de;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  font-family: "VT323", monospace;
+}
+
+.active,
+.accordion:hover {
+  background-color: #d9f2ff;
+  color: white;
+}
+
+.accordion:after {
+  content: "\002B";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/*Top Button*/
+#topBtn {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 99;
+  font-size: 50px;
+  text-align: top;
+  border: none;
+  outline: none;
+  background-color: #77529e;
+  color: white;
+  cursor: pointer;
+  padding: 2px 12px;
+  border-radius: 10px;
+}
+
+#topBtn:hover {
+  background-color: #d9f2ff;
 }
