@@ -6,7 +6,8 @@
 
 body {
   margin: 0;
-  font-family: OdibeeSans-Regular, sans-serif;
+  font-family: OdibeeSans, sans-serif;
+  background: #edd5d5;
 }
 
 /*Nav Bar*/
