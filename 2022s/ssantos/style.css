@@ -209,6 +209,24 @@ h5 {
   padding-bottom:1vw;
 }
 
+p4 {
+  font-family: Helvetica;
+  padding-left:2vw ;
+  opacity:55%;
+}
+
+p3 {
+  font-family: Helvetica;
+  padding-left:2vw ;
+  opacity:55%;
+}
+
+p5 {
+  font-family: Helvetica;
+  display:flex;
+  padding-bottom:10px;
+}
+
 h4 {
   font-family: Courier New;
   text-align: center;
