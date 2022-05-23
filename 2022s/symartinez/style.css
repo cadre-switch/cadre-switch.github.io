@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+figcaption {
+  display: block;
+  text-align: center;
+  padding: 2px;
+}
+
 body {
   margin: 0;
   font-family: OdibeeSans, sans-serif;
