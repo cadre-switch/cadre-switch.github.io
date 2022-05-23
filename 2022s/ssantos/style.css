@@ -247,6 +247,10 @@ p {
   text-indent: 50px;
 }
 
+.bad {
+ width: 50%; 
+}
+
 .content a {
   color: blue;
 }
