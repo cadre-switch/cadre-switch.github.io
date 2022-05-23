@@ -64,7 +64,7 @@ body {
   margin-bottom: 30px;
   font-size: 48px;
   padding-left: 60px;
-  line-height: 2;
+  line-height: 1;
   color: #f2d0aa;
   background: linear-gradient(90deg, rgba(42,19,0,1) 0%, rgba(0,212,255,0) 100%);
 }
