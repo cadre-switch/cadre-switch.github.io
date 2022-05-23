@@ -15,38 +15,113 @@ body {
   padding: 0;
 }
 
-/*Scroll Bar*/
+/* Track */
 ::-webkit-scrollbar
 {
-  width: 1vw;
-}
-
-::-webkit-scrollbar-thumb
-{
-  background: linear-gradient(#009cad, #009cad);
-  border-radius: 0.1vw;
-}
-
-::-webkit-scrollbar-thumb:hover
-{
-  background: linear-gradient(#016773,#016773);
+  width: 14px;
+  height: 14px;
 }
 
 ::-webkit-scrollbar-track
 {
-  background: #bf8e8e;
+  background: #132743;
+  border: solid 2px rgba(33,33,33,0.5);
 }
 
 
+/* Thumb */
+::-webkit-scrollbar-thumb
+{
+  background: #ffb5b5;
+}
+
+::-webkit-scrollbar-thumb:hover
+{
+  background: #ffcfcf;
+}
+
+::-webkit-scrollbar-thumb:vertical
+{
+  border-top: solid 2px #1b4a61;
+  border-bottom: solid 2px #1b4a61;
+}
+
+::-webkit-scrollbar-thumb:horizontal
+{
+  border-right: solid 2px rgba(33,33,33,0.5);
+  border-left: solid 2px rgba(33,33,33,0.5);
+}
+
+
+/* Buttons */
+::-webkit-scrollbar-button
+{
+  border-style: solid;
+  height: 16px;
+  width: 16px;
+}
+
+
+/* Up */
+::-webkit-scrollbar-button:vertical:decrement
+{
+  border-width: 0 7px 14px 7px;
+  border-color:#1b4a61 #1b4a61 white #1b4a61 ;
+}
+
+::-webkit-scrollbar-button:vertical:decrement:hover
+{
+  border-color:#1b4a61 #1b4a61 grey #1b4a61;
+}
+
+
+/* Down */
+::-webkit-scrollbar-button:vertical:increment
+{
+  border-width: 14px 7px 0 7px;
+  border-color: white #1b4a61 #1b4a61 #1b4a61;
+}
+
+::-webkit-scrollbar-button:vertical:increment:hover
+{
+  border-color: grey #1b4a61 #1b4a61 #1b4a61 ;
+}
+
+
+/* Left */
+::-webkit-scrollbar-button:horizontal:decrement
+{
+  border-width: 7px 14px 7px 0;
+  border-color: transparent #404040 transparent transparent;
+}
+
+::-webkit-scrollbar-button:horizontal:decrement:hover
+{
+  border-color: transparent #505050 transparent transparent;
+}
+
+
+/* Right */
+::-webkit-scrollbar-button:horizontal:increment
+{
+  border-width: 7px 0 7px 14px;
+  border-color: transparent transparent transparent #404040;
+}
+
+::-webkit-scrollbar-button:horizontal:increment:hover
+{
+  border-color: transparent transparent transparent #505050;
+}
+
 /*Nav Bar*/
 .topbar {
-  background-color: #009cad;
+  background-color: #407088;
   position: relative;
   display: flex;
 }
 
 .topnav {
-  background-color: #009cad;
+  background-color: #407088;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -66,9 +141,9 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #004c54;
-  color: white;
-  border-radius:10px;
+  background-color: #1b4a61;
+  color: #ffcbcb;
+  border-radius:5px;
 }
 
 .topnav .active {
@@ -167,7 +242,7 @@ p {
 }
 
 .content button {
-  background-color: #009cad;
+  background-color: #407088;
   color: #132743;
   font-size: large;
   padding: 20px;
@@ -210,7 +285,7 @@ p {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  background-color: #009cad;
+  background-color: #407088;
   text-align: right;
   padding-top: 10px;
 }
