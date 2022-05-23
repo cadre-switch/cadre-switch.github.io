@@ -37,7 +37,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #FFFFFF;
+  background-color: #85b0e7;
   color: black;
 }
 
@@ -68,7 +68,7 @@ body {
 
 .hero img {
   height: auto;
-  opacity: .65;
+  opacity: .75;
 }
 
 .hero p {
@@ -219,7 +219,7 @@ object {
   }
 
   .hero-overlay {
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 25px;
     margin-bottom: 50px;
     width: auto;
