@@ -247,7 +247,14 @@ p {
 }
 
 .bad {
- width: 50%; 
+ width: 100%; 
+ height: 100%; 
+}
+
+.bad2 {
+ width: auto;
+ height: auto;
+ margin-left: 23vw;
 }
 
 .content a {
