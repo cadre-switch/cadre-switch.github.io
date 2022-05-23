@@ -124,8 +124,38 @@ body {
   color: #132743;
 }
 
+ul {
+  font-family: Helvetica;
+  padding-left: 1vw;
+}
+
+h5 {
+  font-size:24px;
+  padding-bottom:1vw;
+}
+
+h4 {
+  font-family: Courier New;
+  text-align: center;
+}
+
+h2 {
+  padding-top:1vw;
+  text-align:center;
+}
+
+h6 {
+ font-size:22px;
+ padding-top:1vw;
+}
+
+p {
+  font-family: Helvetica;
+  text-indent: 50px;
+}
+
 .content a {
-  color: #ff0000;
+  color: blue;
 }
 
 .content a:hover {
@@ -182,7 +212,7 @@ body {
   flex-wrap: wrap;
   background-color: #009cad;
   text-align: right;
-  padding: 10px;
+  padding-top: 10px;
 }
 
 .footer a {
