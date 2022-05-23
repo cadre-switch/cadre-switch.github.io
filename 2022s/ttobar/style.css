@@ -8,7 +8,7 @@
 body {
   margin: 0;
  font-family: 'Press Start 2P', cursive;
-  background:#113f67; 
+  background:#fcb6d7; 
 }
 
 /*Scroll Bar*/
@@ -19,30 +19,30 @@ body {
 
 ::-webkit-scrollbar-thumb
 {
-  background: linear-gradient(#e7eaf6, #a2a8d3);
+  background: linear-gradient(#fc9dc9, #ff91c4);
   border-radius: 0.5vw;
 }
 
 ::-webkit-scrollbar-thumb:hover
 {
-  background: linear-gradient(#38598b,#38598b);
+  background: linear-gradient(#ffbfdd,#ffbfdd);
 }
 
 ::-webkit-scrollbar-track
 {
-  background: #0b2c47;
+  background: #ffffff;
 }
 
 
 /*Nav Bar*/
 .topbar {
-  background-color: #a2a8d3;
+  background-color: #fcb6d7;
   position: relative;
   display: flex;
 }
 
 .topnav {
-  background-color: #a2a8d3;
+  background-color: #fcb6d7;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -55,14 +55,14 @@ body {
 }
 
 .topnav a {
-  color: #e7eaf6;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .topnav a:hover {
-  background-color: #113f67;
+  background-color: #f274af;
   color: #e7eaf6;
   border-radius: 0.5vw;
 }
@@ -90,7 +90,7 @@ body {
   font-size: 48px;
   padding: 0px;
   line-height: .5;
-  color: #e7eaf6;
+  color: #ffffff;
 }
 
 .hero img {
@@ -111,21 +111,21 @@ body {
 /*Main Content*/
 .content {
   position: relative;
-  background-color: #113f67;
+  background-color: #ffffff;
   padding: 50px;
   padding-bottom: 10px;
   width: 80%;
   max-width: 1000px;
   margin: auto;
-  color:#e7eaf6;
+  color:#fa98c6;
 }
 
 .content a {
-  color: #a2a8d3;
+  color: #fc6abd;
 }
 
 .preview {
-  border: 1px solid #113f67;
+  border: 1px solid #ffffff;
 }
 
 .content button {
@@ -172,7 +172,7 @@ body {
 .footer {
   display: wrap;
   flex-wrap: wrap;
-  background-color: #a2a8d3;
+  background-color: #fcb6d7;
   text-align: right;
   padding: 10px;
 }
