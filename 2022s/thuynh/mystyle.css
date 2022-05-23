@@ -58,14 +58,15 @@ body {
   position: absolute;
   bottom: 0px;
   left: 0px;
-  width: 90%;
+  width: 100%;
   text-align: left;
-  margin-left: 50px;
-  margin-bottom: 25px;
+  margin-left: 0px;
+  margin-bottom: 30px;
   font-size: 48px;
-  padding: 0px;
-  line-height: .5;
+  padding-left: 60px;
+  line-height: 1;
   color: #f2d0aa;
+  background: linear-gradient(90deg, rgba(42,19,0,1) 0%, rgba(0,212,255,0) 100%);
 }
 
 .hero img {
