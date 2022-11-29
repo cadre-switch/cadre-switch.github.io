@@ -1,3 +1,4 @@
+/*Font*/
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500;600;700&display=swap');
 
 * {
@@ -16,6 +17,7 @@ body {
   display: flex;
 }
 
+/*Nav Color*/
 .topnav {
   background-color: #F8E81A;
   position: relative;
@@ -36,6 +38,7 @@ body {
   text-decoration: none;
 }
 
+/*Nav Hover Color*/
 .topnav a:hover {
   background-color: #FFFFFF;
   color: black;
@@ -53,6 +56,7 @@ body {
   width: 100%;
 }
 
+/*Hero Font Text Overlay*/
 .hero-overlay {
   position: absolute;
   bottom: 0px;
@@ -71,6 +75,7 @@ body {
   opacity: .65;
 }
 
+/*Hero Color*/
 .hero p {
   margin-left: 20px;
   margin-top: 0px;
@@ -149,6 +154,7 @@ body {
   padding: 10px;
 }
 
+/*Footer Color*/
 .footer a {
   color: #000000;
 }
