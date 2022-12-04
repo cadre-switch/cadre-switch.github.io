@@ -1,4 +1,3 @@
-/*Font*/
 @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500;600;700&display=swap');
 
 * {
@@ -17,7 +16,6 @@ body {
   display: flex;
 }
 
-/*Nav Color*/
 .topnav {
   background-color: #F8E81A;
   position: relative;
@@ -38,7 +36,6 @@ body {
   text-decoration: none;
 }
 
-/*Nav Hover Color*/
 .topnav a:hover {
   background-color: #FFFFFF;
   color: black;
@@ -56,7 +53,6 @@ body {
   width: 100%;
 }
 
-/*Hero Font Text Overlay*/
 .hero-overlay {
   position: absolute;
   bottom: 0px;
@@ -75,7 +71,6 @@ body {
   opacity: .65;
 }
 
-/*Hero Color*/
 .hero p {
   margin-left: 20px;
   margin-top: 0px;
@@ -154,14 +149,8 @@ body {
   padding: 10px;
 }
 
-/*Footer Color*/
 .footer a {
   color: #000000;
-}
-
-ul { /** works with ol too **/
-    list-style: none; /** removes bullet points/numbering **/
-    padding-left: 0px; /** removes actual indentation **/
 }
 
 /*PDF Viewer*/
@@ -195,19 +184,6 @@ object {
   overflow: hidden;
   float: left;
   padding: 5px;
-}
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  height: 0;
-}
-.video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 
