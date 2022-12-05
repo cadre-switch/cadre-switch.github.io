@@ -1,25 +1,27 @@
 /*Font*/
-@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500;600;700&display=swap');
+//check
+@import url('https://fonts.googleapis.com/css2?family=montserrat&family=rubik+glitch:wght@400');
 
 * {
   box-sizing: border-box;
 }
 
+// not sure if rubik glitch works just adding b/c it follows the winning design (can delete rubik glitch)
 body {
   margin: 0;
-  font-family: Darker Grotesque, sans-serif;
+  font-family: sans-serif, montserrat, rubik glitch;
 }
 
 /*Nav Bar*/
 .topbar {
-  background-color: #F8E81A;
+  background-color: #005298;
   position: relative;
   display: flex;
 }
 
 /*Nav Color*/
 .topnav {
-  background-color: #F8E81A;
+  background-color: #005298;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -32,7 +34,7 @@ body {
 }
 
 .topnav a {
-  color: #000000;
+  color: #FDBF5C;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -41,7 +43,7 @@ body {
 /*Nav Hover Color*/
 .topnav a:hover {
   background-color: #FFFFFF;
-  color: black;
+  color: #FDBF5C;
 }
 
 .topnav .active {
@@ -72,10 +74,8 @@ body {
 
 .hero img {
   height: auto;
-  opacity: .65;
 }
 
-/*Hero Color*/
 .hero p {
   margin-left: 20px;
   margin-top: 0px;
@@ -106,7 +106,7 @@ body {
 }
 
 .content button {
-  background-color: #F8E81A;
+  background-color: #005298;
   color: black;
   font-size: large;
   padding: 20px;
@@ -149,14 +149,14 @@ body {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  background-color: #F8E81A;
+  background-color: #005298;
   text-align: right;
   padding: 10px;
 }
 
 /*Footer Color*/
 .footer a {
-  color: #000000;
+  color: #FDBF5C;
 }
 
 ul { /** works with ol too **/
