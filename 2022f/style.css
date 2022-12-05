@@ -1,12 +1,10 @@
 /*Font*/
-//check
 @import url('https://fonts.googleapis.com/css2?family=montserrat&family=rubik+glitch:wght@400');
 
 * {
   box-sizing: border-box;
 }
 
-// not sure if rubik glitch works just adding b/c it follows the winning design (can delete rubik glitch)
 body {
   margin: 0;
   font-family: sans-serif, montserrat, rubik glitch;
