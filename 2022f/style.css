@@ -70,6 +70,10 @@ body {
   line-height: .5;
 }
 
+h1 {
+  color: white;
+}
+
 .hero img {
   height: auto;
 }
@@ -77,11 +81,11 @@ body {
 .hero p {
   margin-left: 20px;
   margin-top: 0px;
-  color: #FFFFFF;
+  color: DimGray;
 }
 
 .hero a {
-  color: #FFFFFF;
+  color: black;
 }
 
 /*Main Content*/
