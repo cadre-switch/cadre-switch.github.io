@@ -1,5 +1,5 @@
 /*Font*/
-@import url('https://fonts.googleapis.com/css2?family=montserrat&family=rubik+glitch:wght@400');
+@import url('https://fonts.googleapis.com/css2?family=montserrat&family=space+mono:wght@400');
 
 * {
   box-sizing: border-box;
@@ -7,19 +7,19 @@
 
 body {
   margin: 0;
-  font-family: sans-serif, montserrat, rubik glitch;
+  font-family: sans-serif, montserrat, space mono;
 }
 
 /*Nav Bar*/
 .topbar {
-  background-color: #005298;
+  background-color: #180165;
   position: relative;
   display: flex;
 }
 
 /*Nav Color*/
 .topnav {
-  background-color: #005298;
+  background-color: #180165;
   position: relative;
   display: flex;
   justify-content: flex-end;
