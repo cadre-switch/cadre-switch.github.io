@@ -1,26 +1,25 @@
 /*Font*/
-@import url('https://fonts.googleapis.com/css2?family=montserrat&family=space+mono:wght@400');
+@import url('https://fonts.googleapis.com/css2?family=montserrat&family=rubik+glitch:wght@400');
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: 8A67FE;
   margin: 0;
-  font-family: sans-serif, montserrat, space mono;
+  font-family: sans-serif, montserrat, rubik glitch;
 }
 
 /*Nav Bar*/
 .topbar {
-  background-color: #180165;
+  background-color: #005298;
   position: relative;
   display: flex;
 }
 
 /*Nav Color*/
 .topnav {
-  background-color: #180165;
+  background-color: #005298;
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -33,7 +32,7 @@ body {
 }
 
 .topnav a {
-  color: #FFFFFF;
+  color: #FDBF5C;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -41,8 +40,8 @@ body {
 
 /*Nav Hover Color*/
 .topnav a:hover {
-  background-color: #8A67FE;
-  color: #FFFFFF;
+  background-color: #FFFFFF;
+  color: #FDBF5C;
 }
 
 .topnav .active {
@@ -92,7 +91,7 @@ body {
 /*Main Content*/
 .content {
   position: relative;
-  background-color: #EAEAFF;
+  background-color: #FFFFFF;
   padding: 50px;
   padding-bottom: 10px;
   width: 80%;
@@ -152,14 +151,14 @@ body {
 .footer {
   display: flex;
   flex-wrap: wrap;
-  background-color: #180165;
+  background-color: #005298;
   text-align: right;
   padding: 10px;
 }
 
 /*Footer Color*/
 .footer a {
-  color: #FFFFFF;
+  color: #FDBF5C;
 }
 
 ul { /** works with ol too **/
