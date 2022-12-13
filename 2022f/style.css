@@ -166,6 +166,10 @@ ul { /** works with ol too **/
     padding-left: 0px; /** removes actual indentation **/
 }
 
+ul.ref {
+  list-style: square;
+}
+
 /*PDF Viewer*/
 iframe {
   width: 100%;
