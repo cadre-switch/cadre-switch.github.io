@@ -168,7 +168,9 @@ ul { /** works with ol too **/
 
 ul.ref {
   list-style: square;
-  padding-left: 0px; /** removes actual indentation **/
+/*  padding-left: 0px; */
+  list-style-position: outside;
+    
 }
 
 /*PDF Viewer*/
