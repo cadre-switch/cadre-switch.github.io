@@ -126,8 +126,8 @@ a:hover {
   left: 0px;
   width: 90%;
   text-align: left;
-  margin-left: 50px;
-  margin-bottom: 25px;
+  margin-left: 4%;
+  margin-bottom: 1%;
   font-size: 48px;
   padding: 0px;
   line-height: .5;
@@ -162,9 +162,11 @@ a:hover {
   margin: auto;
 }
 
+/*
 .content a {
   color: #000000;
 }
+*/
 
 .preview {
   border: 1px solid black;
