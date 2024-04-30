@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.issue, .article {
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.issue:hover, .article:hover {
+    background-color: #f1f1f1;
+}
+
+.details {
+    display: none;
+    padding: 10px 20px;
+    font-size: 0.9em;
+    border-left: 3px solid #ddd;
+    background-color: #fff;
+}
+
+.issue-image {
+    height: auto; /* Constrain the height to 200 pixels */
+    width: 250px; /* Maintain aspect ratio */
+    display: block; /* Use block to make sure it starts on a new line */
+    margin-bottom: 10px; /* Add some space below the image */
+}
+
+.toggle-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.toggle-button:focus {
+    outline: none;
+}
