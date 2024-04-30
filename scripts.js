@@ -11,7 +11,9 @@ document.addEventListener("DOMContentLoaded", function() {
         issueLink.style.textDecoration = 'none'; // Optional, to remove underline from links
 
         const img = document.createElement('img');
-        img.src = `/images/${issue.number}.jpg`; // Assumes images are stored in an 'images' directory
+        // Transform issue number to lowercase and replace spaces with dashes
+        const imageName = issue.number.toLowerCase().replace(/\s+/g, '-');
+        img.src = `/images/${imageName}.jpg`; // Assumes images are stored in an 'images' directory
         img.className = 'issue-image';
         issueLink.appendChild(img);
 
