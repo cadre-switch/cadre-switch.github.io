@@ -59,16 +59,16 @@ body {
   left: 0px;
   width: 90%;
   text-align: left;
-  margin-left: 50px;
-  margin-bottom: 25px;
+  margin-left: 5%;
+  margin-bottom: 5%;
   font-size: 48px;
   padding: 0px;
-  line-height: .5;
+  line-height: 90%;
 }
 
 .hero img {
   height: auto;
-  opacity: .65;
+  opacity: .55;
 }
 
 .hero p {
@@ -78,7 +78,7 @@ body {
 }
 
 .hero a {
-  color: black;
+  color: white;
 }
 
 /*Main Content*/
