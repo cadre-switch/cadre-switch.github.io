@@ -32,6 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const articlesDiv = document.createElement('div');
         articlesDiv.className = 'details';
+        articlesDiv.style.display = 'none'; // Ensure initial state is set
         issueDiv.appendChild(articlesDiv); // Append details right under the toggle
 
         issue.articles.forEach(article => {
@@ -55,6 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             const abstractDiv = document.createElement('div');
             abstractDiv.className = 'details';
+            abstractDiv.style.display = 'none'; // Ensure initial state is set
             abstractDiv.textContent = article.abstract;
             articleDiv.appendChild(abstractDiv); // Append abstract right under the toggle
 
