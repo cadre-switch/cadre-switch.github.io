@@ -3,6 +3,26 @@ body {
     margin: 20px;
 }
 
+
+a:link {
+  color: #46B6CC;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #307D8C;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
 .issue, .article {
     padding: 10px;
     margin-bottom: 5px;
@@ -39,4 +59,265 @@ body {
 
 .toggle-button:focus {
     outline: none;
+}
+
+.toggle-button:hover {
+    background-color: #FFFF00; /* Yellow color on hover */
+}
+
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=montserrat&family=rubik+glitch:wght@400');
+
+* {
+  box-sizing: border-box;
+}
+
+
+/*Nav Bar*/
+.topbar {
+  background-color: #005298;
+  position: relative;
+  display: flex;
+}
+
+/*Nav Color*/
+.topnav {
+  background-color: #005298;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  text-align: center;
+  padding: 14px 16px;
+  border: 1px solid pink;
+}
+
+.topnav a {
+  color: #FDBF5C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*Nav Hover Color*/
+.topnav a:hover {
+  background-color: #FFFFFF;
+  color: #FDBF5C;
+}
+
+.topnav .active {
+  font-weight: bold;
+}
+
+/*Hero Content*/
+
+.hero {
+  position: relative;
+  padding: 0;
+  width: 100%;
+}
+
+/*Hero Font Text Overlay*/
+.hero-overlay {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 90%;
+  text-align: left;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  font-size: 48px;
+  padding: 0px;
+  line-height: .5;
+}
+
+.hero h1 {
+  color: white;
+}
+
+.hero img {
+  height: auto;
+}
+
+.hero p {
+  margin-left: 20px;
+  margin-top: 0px;
+  color: DimGray;
+}
+
+.hero a {
+  color: black;
+}
+
+/*Main Content*/
+.content {
+  position: relative;
+  background-color: #FFFFFF;
+  padding: 50px;
+  padding-bottom: 10px;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.content a {
+  color: #000000;
+}
+
+.preview {
+  border: 1px solid black;
+}
+
+.content button {
+  background-color: #FFFFFF;
+  color: black;
+  font-size: large;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.row1 {
+  background-color: white;
+  padding: 10px;
+  flex: 50%;
+}
+
+.row2 {
+  background-color: white;
+  padding: 10px;
+  flex: 50%;
+}
+
+.row3 {
+  padding: 0px;
+  flex: 25%;
+}
+
+.row4 {
+  padding: 7.5px;
+  flex: 75%;
+}
+
+/*Footer*/
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #005298;
+  text-align: right;
+  padding: 10px;
+}
+
+/*Footer Color*/
+.footer a {
+  color: #FDBF5C;
+}
+
+ul { /** works with ol too **/
+    list-style: none; /** removes bullet points/numbering **/
+    padding-left: 0px; /** removes actual indentation **/
+}
+
+ul.ref {
+  list-style: square;
+/*  padding-left: 0px; */
+  list-style-position: outside;
+    
+}
+
+/*PDF Viewer*/
+iframe {
+  width: 100%;
+  height: 800px;
+}
+object {
+  width: 100%;
+  height: 800px;
+}
+
+#pdf {
+  display: block;
+  width: 100%;
+  background-color: grey;
+}
+
+.pdf-content {
+  background-color: #FFFFFF;
+  padding: 50px;
+  width: 100%;
+}
+
+.pdf-content a {
+  color: #000000;
+}
+
+.logo-image img{
+  height: 40px;
+  overflow: hidden;
+  float: left;
+  padding: 5px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  height: 0;
+}
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/*Responsive*/
+
+@media (max-width: 700px) {
+  .topnav {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .topnav a{
+    margin: auto;
+    width: 100%;
+  }
+
+  .footer {
+    margin: auto;
+    text-align: center;
+  }
+
+  .logo-image img{
+    float: none;
+    margin: auto;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .row1, .row2, .row3, .row4 {
+    flex: 100%;
+  }
+
+  .hero-overlay {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    width: auto;
+  }
 }
