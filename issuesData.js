@@ -660,7 +660,7 @@ const issuesData = [
                 "url": "https://switch.sjsu.edu/archive/web/art.online/matt.links/matt.article1.html",
                 "authors": "Matt Hoessli",
                 "authorUrl": null,
-                "abstract": "A hyperlinked essay focused on the non-linear networked nature of the web. The essay features 18 unique pages that are only accessed via hyperlinks within the essay itself.",
+                "abstract": "A hypertext essay focused on the non-linear networked nature of the web. The essay features 18 unique pages that are only accessed via hyperlinks within the essay itself.",
                 "keywords": "Internet",
                 "artistsMentioned": "none",
                 "exhibitionsMentioned": "none"
@@ -865,7 +865,7 @@ const issuesData = [
                 "title": "Interview with Manuel DeLanda",
                 "url": "http://switch.sjsu.edu/archive/web/v3n3/stillman.cgi%3Flink7=http:%252F%252Fswitch.sjsu.edu:%252Fweb%252Fv3n3%252FDeLanda%252Fdelanda.html",
                 "authors": "Switch Staffs",
-                "authorUrl": "https://visarts.ucsd.edu/people/faculty/brett-stalbaum.html\nhttps://www.linkedin.com/in/geriwittig/\nhttp://www.opensorcery.net/contact.html",
+                "authorUrl": "https://visarts.ucsd.edu/people/faculty/brett-stalbaum.html",
                 "abstract": "An interview with philosopher Manuel De  Landa and SJSU CADRE students, Brett Stalbaum, Matt Hoessli, Geri Wittig, Kristin Cully, Geoffrey Bruce, Anne-Marie Schleiner. De Landa's work focuses on the use of networks as a medium of expression. The discussion  traces networking technology, including machine intelligence or artificial intelligence\u2019s evolution from military to civilian contexts. They discuss, One Thousand Years of Nonlinear History, De Landa most recent book at that time that shows the history of the world from a non-anthropocentric view to make the worldview more inclusive as a self-organized and dynamical system that is unaffected by the hierarchical perspective where humans dominate the other species. The use of multiple interviewers produces a wide-ranging conversation.",
                 "keywords": "Network, internet, military organizational behaviors, theoretical dimension, machine intelligence, artificial intelligence, autonomous software agents, self-organizing systems, stratification",
                 "artistsMentioned": "Manuel De Landa",
@@ -1137,7 +1137,7 @@ const issuesData = [
             },
             {
                 "title": "Paranoid Machines:Conspiracy Games and Desire Control in Tron",
-                "url": NaN,
+                "url": "https://switch.sjsu.edu/archive/nextswitch/switch_engine/front/front.php%3Fartc=47.html",
                 "authors": "Jason Brown",
                 "authorUrl": null,
                 "abstract": "The article analyzes the 1982 film 'Tron' as both a metaphorical and literal exploration of networked social orders and technological control. The author presents Tron as a pioneering cinematic work that intertwines live-action with groundbreaking computer-generated imagery, setting the stage for a discussion on digital and gaming culture's influence on society. The article presents the narrative of Tron, involving a hacker battling a tyrannical computer program, as an allegory for broader themes of human desire, freedom, and control within techno-social systems. Through a comparative analysis with other cultural artifacts like \"Blade Runner\" and literary works like William Gibson's \"Neuromancer,\" the author illustrates Tron's complex interplay between overt plots and covert socio-cultural implications, highlighting the film's lasting impact on our understanding of the relationships between creators, users, and digital entities. This article examines how Tron not only depicted but also shaped the ideological battles of the information age, suggesting that the film\u2019s portrayal of the digital landscape has profound implications on contemporary notions of agency and control.",
@@ -1147,7 +1147,7 @@ const issuesData = [
             },
             {
                 "title": "The Freud-Lissitzky Navigator Text",
-                "url": NaN,
+                "url": "https://switch.sjsu.edu/archive/nextswitch/switch_engine/front/front.php%3Fartc=118.html",
                 "authors": "Lev Manovich",
                 "authorUrl": "http://mavich.net/",
                 "abstract": "Leo Manovich explores the development of the simulation project called The Freud-Lissitzky Navigator. Manovich first introduces Sigmund Feud in the year 1928, where Freud met with the Russian designer El Lissitzky to talk about psychoanalysis and modern architecture. During their discussion, they created the Interpretation of Dreams, Freud\u2019s model of the concious/unconciousness. Around this time, Russian filmmaker Sergei Eisenstein wanted to create a film adaptation of Marx\u2019s Capital, which later became his idea of \u201cdisplacing\u201d Capital in the Interpretation of Dreams. Essentially, Freud and Lissitzky was convinced to commission Eisenstein to creat a walkthrough of the model of a house. While visiting Bauhaus around the year 1929, he talks to Hungarian artist and Bauhaus professor Moholy-Nagy to see if his students could make a model of the house that Eisenstein could film. Eisenstein also meets young American engineer Edwin Link who talks about his first flight simulator, which has a simulation of the cockpits and controls. Except, there are no visuals in Link\u2019s simulation. However, even though Eisenstein was able to get to America and connect with Disney through Link\u2019s connections, he was unable to realize his dream of the Freud-Lissitzky navigator.\r\n\r\nAfter the first computer game Spacewar was written by MIT Steve Russel in 1961 and many other accomplishments, the Freud-Lissitzky Navigator became a tool than many used for their own projects. Currently, the Freud-Lissitzky Navigator is being reconstructed from an early version by many different individuals and groups.",
@@ -1481,7 +1481,7 @@ const issuesData = [
             },
             {
                 "title": "GroundZero+Digital St. John+Seventh Heaven: A Brief Interview with Bill Viola @ .artfrontiers",
-                "url": "http://switch.sjsu.edu/archive/nextswitch/switch_engine/front/front.php%3Fartc=35.html",
+                "url": "https://switch.sjsu.edu/archive/v6n2/articles/raggio-viola.html",
                 "authors": "Nora Raggio",
                 "authorUrl": null,
                 "abstract": "The interview transcript highlights the artist Bill Viola's transition from creating physical space installations to virtual environments. The conversation centers around the artist's latest project, DIGITAL ST JOHN, a first-person computer game inspired by his then-recent exhibition at SFMOMA. The artist explains how his SFMOMA exhibit, which involved transforming individual room spaces into a cohesive artistic experience, sparked the idea to replicate this concept in cyberspace. DIGITAL ST JOHN is described as a multi-layered, interactive virtual world based on the ancient cosmological concept of a seven-tiered universe. The discussion also touches on practical challenges, such as securing sufficient resources and funding for such an ambitious project, with support from Ground Zero\u2014a partner helping to bring the virtual project to fruition. The artist expresses both the excitement and difficulties of adapting his vision to a digital format, underscoring the complexities of translating physical installations into virtual realms.",
@@ -4089,7 +4089,7 @@ const issuesData = [
     },
     {
         "number": "issue 31",
-        "title": "History of the Metaverse",
+        "title": "A Breif History of the Metaverse",
         "date": "Fall 2022",
         "homepageUrl": "https://cadre-switch.github.io/2022f/",
         "articles": [
