@@ -63,11 +63,11 @@ body {
   left: 0px;
   width: 90%;
   text-align: left;
-  margin-left: 50px;
-  margin-bottom: 25px;
+  margin-left: 2%;
+  margin-bottom: .01%;
   font-size: 48px;
   padding: 0px;
-  line-height: .5;
+  line-height: 170%;
 }
 
 .hero h1 {
