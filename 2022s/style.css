@@ -51,6 +51,7 @@ body {
   position: relative;
   padding: 0;
   width: 100%;
+  background: grey;
 }
 
 .hero-overlay {
@@ -68,18 +69,24 @@ body {
 
 .hero img {
   height: auto;
-  opacity: .55;
+  background: black;
+  opacity: .35;
+  
 }
 
 .hero p {
   margin-left: 20px;
   margin-top: 0px;
-  color: DimGrey;
+  color: white;
 }
 
 .hero a {
   color: white;
 }
+
+.hero h1{
+    color:white;
+ }
 
 /*Main Content*/
 .content {
