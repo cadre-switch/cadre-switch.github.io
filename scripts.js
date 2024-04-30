@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
         issueLink.style.textDecoration = 'none'; // Optional, to remove underline from links
 
         const img = document.createElement('img');
-        img.src = `images/${issue.number}.jpg`; // Assumes images are stored in an 'images' directory
+        img.src = `/images/${issue.number}.jpg`; // Assumes images are stored in an 'images' directory
         img.className = 'issue-image';
         issueLink.appendChild(img);
 

@@ -17,8 +17,8 @@ a:visited {
 }
 
 a:hover {
-  font-weight: bold;
-  background-color: transparent;
+/*  font-weight: bold;*/
+  background-color: lightgoldenrodyellow;
   text-decoration: underline;
 }
 
@@ -62,7 +62,7 @@ a:hover {
 }
 
 .toggle-button:hover {
-    background-color: #FFFF00; /* Yellow color on hover */
+    background-color: lightgoldenrodyellow; /* Yellow color on hover */
 }
 
 /*Font*/
