@@ -829,7 +829,7 @@ const issuesData = [
         "number": "issue 08",
         "title": "art and military",
         "date": "Spring 1998",
-        "homepageUrl": "http://switch.sjsu.edu/archive/web/v4n1/toc.html",
+        "homepageUrl": "http://switch.sjsu.edu/archive/web/v3n3/militarytoc.html",
         "articles": [
             {
                 "title": "Cyberthuggee and the Ridiculous World Order",
@@ -897,7 +897,7 @@ const issuesData = [
         "number": "issue 09",
         "title": "Electronic Gender",
         "date": "Fall 1998",
-        "homepageUrl": "http://switch.sjsu.edu/archive/web/v4n2/contents.html",
+        "homepageUrl": "https://switch.sjsu.edu/archive/web/v4n1/toc.html",
         "articles": [
             {
                 "title": "A Report on Cyberfeminism",
