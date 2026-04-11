@@ -1,0 +1,366 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+a:link {
+  color: #307D8C;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #1B434B;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:hover {
+  background-color: lightgoldenrodyellow;
+  text-decoration: underline;
+}
+
+/* ISSUE GRID */
+#issues-container,
+.issues-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  align-items: start;
+  margin-top: 20px;
+}
+
+/* ISSUE / ARTICLE CARDS */
+.issue,
+.article {
+  padding: 14px;
+  margin-bottom: 0;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  height: 100%;
+  border-radius: 6px;
+}
+
+.issue:hover,
+.article:hover {
+  background-color: #f1f1f1;
+}
+
+.issue-info {
+  margin-top: 8px;
+}
+
+.issue-title {
+  display: block;
+  margin-bottom: 4px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.issue-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  line-height: 1.2;
+}
+
+.issue-date {
+  font-size: 0.88em;
+  color: #666;
+  font-weight: normal;
+}
+
+/* EXPANDED DETAILS */
+.details {
+  display: none;
+  padding: 10px 20px;
+  font-size: 0.9em;
+  border-left: 3px solid #ddd;
+  background-color: #fff;
+  grid-column: 1 / -1;
+  margin-top: -10px;
+}
+
+/* ISSUE IMAGE */
+.issue-image {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+/* TOGGLE BUTTONS */
+.toggle-button,
+.issue-toggle {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin-left: 4px;
+  font-size: 12px;
+  line-height: 1;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.toggle-button:focus {
+  outline: none;
+}
+
+.toggle-button:hover {
+  background-color: lightgoldenrodyellow;
+}
+
+/* GENERAL CONTENT BUTTONS, EXCLUDING TOGGLES */
+.content button:not(.toggle-button) {
+  background-color: #FFFFFF;
+  color: black;
+  font-size: large;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=montserrat&family=rubik+glitch:wght@400');
+
+* {
+  box-sizing: border-box;
+}
+
+/* Nav Bar */
+.topbar {
+  background-color: #005298;
+  position: relative;
+  display: flex;
+}
+
+/* Nav Color */
+.topnav {
+  background-color: #005298;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  text-align: center;
+  padding: 14px 16px;
+  border: 1px solid pink;
+}
+
+.topnav a {
+  color: #FDBF5C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Nav Hover Color */
+.topnav a:hover {
+  background-color: #FFFFFF;
+  color: #FDBF5C;
+}
+
+.topnav .active {
+  font-weight: bold;
+}
+
+/* Hero Content */
+.hero {
+  position: relative;
+  padding: 0;
+  width: 100%;
+}
+
+/* Hero Font Text Overlay */
+.hero-overlay {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 90%;
+  text-align: left;
+  margin-left: 4%;
+  margin-bottom: 1%;
+  font-size: 48px;
+  padding: 0px;
+  line-height: .5;
+}
+
+.hero h1 {
+  color: white;
+}
+
+.hero img {
+  height: auto;
+}
+
+.hero p {
+  margin-left: 20px;
+  margin-top: 0px;
+  color: DimGray;
+}
+
+.hero a {
+  color: black;
+}
+
+/* Main Content */
+.content {
+  position: relative;
+  background-color: #FFFFFF;
+  padding: 50px;
+  padding-bottom: 10px;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.preview {
+  border: 1px solid black;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  text-align: center;
+}
+
+.row1 {
+  background-color: white;
+  padding: 10px;
+}
+
+.row2 {
+  background-color: white;
+  padding: 10px;
+}
+
+.row3 {
+  padding: 0px;
+}
+
+.row4 {
+  padding: 7.5px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #005298;
+  text-align: right;
+  padding: 10px;
+}
+
+/* Footer Color */
+.footer a {
+  color: #FDBF5C;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul.ref {
+  list-style: square;
+  list-style-position: outside;
+}
+
+/* PDF Viewer */
+iframe {
+  width: 100%;
+  height: 800px;
+}
+
+object {
+  width: 100%;
+  height: 800px;
+}
+
+#pdf {
+  display: block;
+  width: 100%;
+  background-color: grey;
+}
+
+.pdf-content {
+  background-color: #FFFFFF;
+  padding: 50px;
+  width: 100%;
+}
+
+.pdf-content a {
+  color: #000000;
+}
+
+.logo-image img {
+  height: 40px;
+  overflow: hidden;
+  float: left;
+  padding: 5px;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .topnav {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .topnav a {
+    margin: auto;
+    width: 100%;
+  }
+
+  .footer {
+    margin: auto;
+    text-align: center;
+  }
+
+  .logo-image img {
+    float: none;
+    margin: auto;
+  }
+
+  .content {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .row {
+    grid-template-columns: 1fr;
+  }
+
+  #issues-container,
+  .issues-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-overlay {
+    font-size: 20px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    width: auto;
+  }
+}
